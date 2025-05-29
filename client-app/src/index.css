@@ -8,6 +8,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   --navbar-width: 3rem;
+  --project-tile-height: 12rem;
 }
 
 body {
