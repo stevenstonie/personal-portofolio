@@ -6,6 +6,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --navbar-width: 3rem;
 }
 
 body {
@@ -19,11 +21,13 @@ html {
 h1 {
   font-size: 5rem;
   line-height: 1.1;
+  margin: 1rem auto;
 }
 
 .centered-x-axis {
   text-align: center;
 }
+
 
 /* button {
   border-radius: 8px;

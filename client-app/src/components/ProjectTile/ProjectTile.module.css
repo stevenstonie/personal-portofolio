@@ -1,0 +1,30 @@
+.project_tile {
+    cursor: pointer;
+    width: 100%;
+	padding: 0;
+    min-height: 12rem;
+    background-size: cover;
+    background-position: center;
+	border: none;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+	border-radius: 10px;
+}
+
+.overlay {
+	display: none;
+    flex: 1 1 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+	border-radius: 10px;
+}
+
+.project_tile:hover .overlay {
+    display: flex;
+}

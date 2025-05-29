@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Intro from './main-sections/Intro/Intro'
 import About from './main-sections/About/About'
-import Projects from './main-sections/Projects'
+import Projects from './main-sections/Projects/Projects'
 import Contact from './main-sections/Contact'
 import More from './main-sections/More/More'
 

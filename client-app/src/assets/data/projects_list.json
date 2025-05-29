@@ -1,0 +1,36 @@
+[
+	{
+		"id": 1,
+		"title": "Project Alpha",
+		"description": "space suite",
+		"thumbnail": "project_alpha_thumbnail.png",
+		"images": [
+			""
+		]
+	},
+	{
+		"id": 2,
+		"title": "Project B",
+		"description": "some 🅱️escription",
+		"thumbnail": "unexistent_thumbnail.png",
+		"images": [
+		]
+	},
+	{
+		"id": 3,
+		"title": "Cintenarus",
+		"description": "Idk. Just came with some word starting with C at the top of my bald mf head",
+		"thumbnail": "/assets/images/projects/cintenarus_thumbnail.png",
+		"images": [
+			"blog_list.png"
+		]
+	},
+	{
+		"id": 4,
+		"title": "Dyonisus",
+		"description": "Super secret organization",
+		"images": [
+			
+		]
+	}
+]
