@@ -1,17 +1,6 @@
 [
 	{
 		"id": 1,
-		"title": "iungOreal",
-		"shortDescription": "A fullstack social media project where its name is a wordplay for 'going outside' (“iungo” means “to connect” in Latin) which aims to guide users into participating at outdoor events taking place in their city (marked on the integrated map) and share their experiences with others.",
-		"longDescription": "<ul> <li> The project is based on a microservice architecture, having as frameworks Spring Boot server-side and Angular client-side. Most notable tools used include: spring-boot-starter for productivity in: security, web, db management & development overall. JUnit, Mockito and H2 for unit and integration tests, awssdk to connect to a cloud service, stompjs for websocket connection and leaflet for implementation of the map  </li> <li> Users can: post and comment on made posts, discuss in private / group / regional chats, update their profile to their liking and many other interactions just like in a typical social media website. </li> </ul>",
-		"images": [
-			"./assets/images/projects/iungoreal/1stimg.png",
-			"./assets/images/projects/iungoreal/2ndimg.png",
-			"./assets/images/projects/iungoreal/3rdimg.png"
-		]
-	},
-	{
-		"id": 2,
 		"title": "StreetArt Platform",
 		"shortDescription": "<p>A web platform designed for both mobile and desktop users, where artists can reserve performance venues and users can view events and their locations. </p> <p>Instead of lots of paperwork, everything is done through the platform, as a central place for everybody. It speeds up the whole process of booking venues, having a committee approve or decline artists, and its the best way of informing users in regard to artists in the area.</p>",
 		"longDescription": "<p>Its backend is powered by Spring Boot, and frontend is built with Angular. Important technologies and tools used include:</p> <ul> <li>leaflet for the map functionality</li> <li>aws s3 as an object storage solution to add, remove and retrieve images used throughout the app</li> <li>firebase as an email verification service</li> <li>spring-security for authentication and authorization</li> <li>database management - is done through MySql for data storage and is implemented through</li> <li>spring data's jpa, amazon's rds being used as the cloud-hosted db solution</li> <li>deployment - has been done on a (docker-integrated) ubuntu virtual machine (provided by DigitalOcean). Microservices run on containers, while the client app has its static files served through an nginx reverse-proxy, which also handles request redirection, implements rate-limiting and switches to access by https . </li> <li>testing environment - currently consists of only unit tests: JUnit5+Mockito for backend (coverage stats provided through 'JaCoCo' plugin) and jasmine+Karma for frontend (coverage stats provided by Karma's istanbul). </li> </ul>",
@@ -20,11 +9,12 @@
 			"./assets/images/projects/streetart/1img.png",
 			"./assets/images/projects/streetart/2img.png",
 			"./assets/images/projects/streetart/3img.png",
-			"./assets/images/projects/streetart/4img.png"
+			"./assets/images/projects/streetart/4img.png",
+			"./assets/images/projects/streetart/5img.jpg"
 		]
 	},
 	{
-		"id": 3,
+		"id": 2,
 		"title": "InfOfish",
 		"shortDescription": "<p>A desktop app which solves the mundane and error-prone way of taking reports of check-ins and check-outs for fishing lakes. InfOfish acts as a payment gateway, where the user scans barcodes of customer’s cards to automate the process of writing data in excels and calculating revenue at closing.</p> <p>It improves the time taken to fill in excel data by hand by at least 11 times and it sees human errors occurring less than about 20 times, having less unnecesary room exposed and given the fact that navigation through the app is more pleasant to the eye.</p>",
 		"longDescription": "<p>It is written in Python but compiled in C++ for faster speeds at runtime. The UI is done with Tkinter, OpenPyxl is used for excel manipulation, whereas Fernet, hmac, symmetric and asymmetric keys are applied for security purposes</p>",
@@ -33,7 +23,19 @@
 			"./assets/images/projects/infopescuit/1.png",
 			"./assets/images/projects/infopescuit/2.png",
 			"./assets/images/projects/infopescuit/3.png",
-			"./assets/images/projects/infopescuit/4.png"
+			"./assets/images/projects/infopescuit/4.png",
+			"./assets/images/projects/infopescuit/5.png"
+		]
+	},
+	{
+		"id": 3,
+		"title": "iungOreal",
+		"shortDescription": "A fullstack social media project where its name is a wordplay for 'going outside' (“iungo” means “to connect” in Latin) which aims to guide users into participating at outdoor events taking place in their city (marked on the integrated map) and share their experiences with others.",
+		"longDescription": "<ul> <li> The project is based on a microservice architecture, having as frameworks Spring Boot server-side and Angular client-side. Most notable tools used include: spring-boot-starter for productivity in: security, web, db management & development overall. JUnit, Mockito and H2 for unit and integration tests, awssdk to connect to a cloud service, stompjs for websocket connection and leaflet for implementation of the map  </li> <li> Users can: post and comment on made posts, discuss in private / group / regional chats, update their profile to their liking and many other interactions just like in a typical social media website. </li> </ul>",
+		"images": [
+			"./assets/images/projects/iungoreal/1stimg.png",
+			"./assets/images/projects/iungoreal/2ndimg.png",
+			"./assets/images/projects/iungoreal/3rdimg.png"
 		]
 	},
 	{
