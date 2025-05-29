@@ -20,8 +20,9 @@
 		"description": "Idk. Just came with some word starting with C at the top of my bald mf head",
 		"thumbnail": "./assets/images/projects/cintenarus_thumbnail.png",
 		"images": [
-			"random.png",
-			"random2.png"
+			"./assets/images/projects/1.jpg",
+			"./assets/images/projects/2.jpg",
+			"./assets/images/projects/3.jpg"
 		]
 	},
 	{

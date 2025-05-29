@@ -18,6 +18,27 @@
 	background-color: rgb(42, 42, 42);
 	border-radius: 8px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	overflow-y: auto;
 	padding: 20px;
 	z-index: 1000;
+
+	.image_list {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		list-style: none;
+		justify-content: center;
+		padding: 0;
+
+		li {
+			max-width: 40%;
+			margin: 1rem;
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+			border-radius: 4px;
+		}
+	}
 }
