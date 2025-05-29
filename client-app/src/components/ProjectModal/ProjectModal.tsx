@@ -1,5 +1,5 @@
 import { Project } from "../../model/Project";
-
+import styles from "./ProjectModal.module.css";
 
 interface ProjectModalProps {
 	project: Project | null;
@@ -13,8 +13,11 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
 
 	return (
 		<>
-			<button onClick={onClose}>X</button>
-			<p>{project.title}</p>
+			<div className={styles.modal_background} onClick={onClose}></div>
+			<div className={styles.modal_window}>
+				<p>{project.title}</p>
+				<p>{project.description ? project.description : "No description available."}</p>
+			</div>
 		</>
 	);
 }

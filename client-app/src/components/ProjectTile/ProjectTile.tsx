@@ -12,7 +12,7 @@ const ProjectTile: React.FC<ProjectTileProps> = ({ project, onClick }) => (
 		className={styles.project_tile}
 		onClick={onClick}
 		style={{
-			backgroundImage: `url(${project.thumbnail})`
+			backgroundImage: `url(${project.thumbnail ? project.thumbnail : "./assets/images/projects/default-thumbnail.png"})`,
 		}}
 	>
 		<div className={styles.overlay}>
