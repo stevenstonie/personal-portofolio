@@ -12,11 +12,15 @@
 	},
 	{
 		"id": 2,
-		"title": "Project Alpha",
-		"shortDescription": "some 🅱️escription",
-		"thumbnail": "./assets/images/projects/project_alpha_thumbnail.jpg",
+		"title": "StreetArt Platform",
+		"shortDescription": "<p>A web platform designed for both mobile and desktop users, where artists can reserve performance venues and users can view events and their locations. </p> <p>Instead of lots of paperwork, everything is done through the platform, as a central place for everybody. It speeds up the whole process of booking venues, having a committee approve or decline artists, and its the best way of informing users in regard to artists in the area.</p>",
+		"longDescription": "<p>Its backend is powered by Spring Boot, and frontend is built with Angular. Important technologies and tools used include:</p> <ul> <li>leaflet for the map functionality</li> <li>aws s3 as an object storage solution to add, remove and retrieve images used throughout the app</li> <li>firebase as an email verification service</li> <li>spring-security for authentication and authorization</li> <li>database management - is done through MySql for data storage and is implemented through</li> <li>spring data's jpa, amazon's rds being used as the cloud-hosted db solution</li> <li>deployment - has been done on a (docker-integrated) ubuntu virtual machine (provided by DigitalOcean). Microservices run on containers, while the client app has its static files served through an nginx reverse-proxy, which also handles request redirection, implements rate-limiting and switches to access by https . </li> <li>testing environment - currently consists of only unit tests: JUnit5+Mockito for backend (coverage stats provided through 'JaCoCo' plugin) and jasmine+Karma for frontend (coverage stats provided by Karma's istanbul). </li> </ul>",
+		"thumbnail": "./assets/images/projects/streetart/thumbnail.png",
 		"images": [
-			""
+			"./assets/images/projects/streetart/1img.png",
+			"./assets/images/projects/streetart/2img.png",
+			"./assets/images/projects/streetart/3img.png",
+			"./assets/images/projects/streetart/4img.png"
 		]
 	},
 	{

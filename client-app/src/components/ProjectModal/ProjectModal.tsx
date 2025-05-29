@@ -17,7 +17,12 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
 			<div className={styles.modal_window}>
 				<h1>{project.title}</h1>
 				<section className={styles.project_details}>
-					<p>{project.shortDescription ? project.shortDescription : "No description available."}</p>
+					{project.shortDescription && (
+						<div
+							className={styles.short_description}
+							dangerouslySetInnerHTML={{ __html: project.shortDescription }}
+						/>
+					)}
 					{project.longDescription && (
 						<div
 							className={styles.long_description}
