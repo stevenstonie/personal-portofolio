@@ -25,13 +25,15 @@
 	},
 	{
 		"id": 3,
-		"title": "Cintenarus",
-		"shortDescription": "Idk. Just came with some word starting with C at the top of my bald mf head",
-		"thumbnail": "./assets/images/projects/cintenarus_thumbnail.png",
+		"title": "InfOfish",
+		"shortDescription": "<p>A desktop app which solves the mundane and error-prone way of taking reports of check-ins and check-outs for fishing lakes. InfOfish acts as a payment gateway, where the user scans barcodes of customer’s cards to automate the process of writing data in excels and calculating revenue at closing.</p> <p>It improves the time taken to fill in excel data by hand by at least 11 times and it sees human errors occurring less than about 20 times, having less unnecesary room exposed and given the fact that navigation through the app is more pleasant to the eye.</p>",
+		"longDescription": "<p>It is written in Python but compiled in C++ for faster speeds at runtime. The UI is done with Tkinter, OpenPyxl is used for excel manipulation, whereas Fernet, hmac, symmetric and asymmetric keys are applied for security purposes</p>",
+		"thumbnail": "./assets/images/projects/infopescuit/thumbnail.png",
 		"images": [
-			"./assets/images/projects/1.jpg",
-			"./assets/images/projects/2.jpg",
-			"./assets/images/projects/3.jpg"
+			"./assets/images/projects/infopescuit/1.png",
+			"./assets/images/projects/infopescuit/2.png",
+			"./assets/images/projects/infopescuit/3.png",
+			"./assets/images/projects/infopescuit/4.png"
 		]
 	},
 	{
