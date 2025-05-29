@@ -24,6 +24,11 @@
 
 	.project_details {
 		text-align: left;
+
+		.short_description {
+			font-size: 1.2rem;
+			margin-bottom: 1rem;
+		}
 	}
 
 	.image_list {
@@ -37,11 +42,12 @@
 		li {
 			margin: 1rem;
 		}
-
+		
 		img {
 			width: 100%;
 			height: auto;
-			border-radius: 4px;
+			border: 2px solid #ccc;
+			border-radius: 10px;
 		}
 	}
 }

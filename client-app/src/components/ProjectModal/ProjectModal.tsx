@@ -17,16 +17,16 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
 			<div className={styles.modal_window}>
 				<h1>{project.title}</h1>
 				<section className={styles.project_details}>
-					{project.shortDescription && (
+					{project.mainDescription && (
 						<div
 							className={styles.short_description}
-							dangerouslySetInnerHTML={{ __html: project.shortDescription }}
+							dangerouslySetInnerHTML={{ __html: project.mainDescription }}
 						/>
 					)}
-					{project.longDescription && (
+					{project.secondaryDescription && (
 						<div
 							className={styles.long_description}
-							dangerouslySetInnerHTML={{ __html: project.longDescription }}
+							dangerouslySetInnerHTML={{ __html: project.secondaryDescription }}
 						/>
 					)}
 				</section>
