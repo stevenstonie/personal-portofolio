@@ -16,7 +16,15 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
 			<div className={styles.modal_background} onClick={onClose}></div>
 			<div className={styles.modal_window}>
 				<h1>{project.title}</h1>
-				<p>{project.description ? project.description : "No description available."}</p>
+				<section className={styles.project_details}>
+					<p>{project.shortDescription ? project.shortDescription : "No description available."}</p>
+					{project.longDescription && (
+						<div
+							className={styles.long_description}
+							dangerouslySetInnerHTML={{ __html: project.longDescription }}
+						/>
+					)}
+				</section>
 				<ul className={styles.image_list}>
 					{project.images?.map((img) => (
 						<li key={img}>

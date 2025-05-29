@@ -1,7 +1,8 @@
 export interface Project {
 	id: number;
 	title: string;
-	description: string;
+	shortDescription: string;
+	longDescription: string;
 	thumbnail: string;
 	images: string[];
 }
