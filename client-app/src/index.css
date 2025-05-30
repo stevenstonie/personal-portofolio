@@ -8,7 +8,11 @@
   -moz-osx-font-smoothing: grayscale;
 
   --navbar-width: 3rem;
-  --project-tile-height: 16rem;
+  --project-tile-height: 22rem;
+
+  @media screen and (max-width: 700px) {
+    --project-tile-height: 18rem;
+  }
 }
 
 body {

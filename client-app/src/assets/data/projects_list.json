@@ -55,8 +55,13 @@
 	},
 	{
 		"id": 5,
-		"title": "Dyonisus",
-		"mainDescription": "Super secret organization",
-		"images": []
+		"title": "Music Player",
+		"mainDescription": "<p>A web-based music player application that allows users to listen to their favorite songs, create playlists, and customize their listening experience.</p>",
+		"secondaryDescription": "<p>The app has: <ul><li>its backend built with .NET to get the songs locally and serve an API with features like streaming songs, getting albums / artists, etc.</li><li>its frontend powered by Angular, which features an user-friendly interface</li></ul></p>",
+		"thumbnail": "./assets/images/projects/tsmusicplayer/thumbnail.png",
+		"images": [
+			"./assets/images/projects/tsmusicplayer/firstimage.png",
+			"./assets/images/projects/tsmusicplayer/secondimage.png"
+		]
 	}
 ]
