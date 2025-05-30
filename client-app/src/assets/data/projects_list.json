@@ -16,7 +16,7 @@
 	{
 		"id": 2,
 		"title": "InfOfish",
-		"mainDescription": "<p>A desktop app which solves the mundane and error-prone way of taking reports of check-ins and check-outs for fishing lakes. InfOfish acts as a payment gateway, where the user scans barcodes of customer’s cards to automate the process of writing data in excels and calculating revenue at closing.</p> <p>It improves the time taken to fill in excel data by hand by at least 11 times and it sees human errors occurring less than about 20 times, having less unnecesary room exposed and given the fact that navigation through the app is more pleasant to the eye.</p>",
+		"mainDescription": "<p>A desktop app which solves the mundane and error-prone way of taking reports of check-ins and check-outs for fishing lakes. InfOfish acts as a payment gateway, where the user scans barcodes of customer's cards to automate the process of writing data in excels and calculating revenue at closing.</p> <p>It improves the time taken to fill in excel data by hand by <span style=\"text-decoration: underline;\">at least 12 times</span> and it sees human errors occurring <span style=\"text-decoration: underline;\">less than about 20 times</span>, having less unnecesary room exposed and given the fact that navigation through the app is more pleasant to the eye.</p>",
 		"secondaryDescription": "<p>It is written in Python but compiled in C++ for faster speeds at runtime. The UI is done with Tkinter, OpenPyxl is used for excel manipulation, whereas Fernet, hmac, symmetric and asymmetric keys are applied for security purposes</p>",
 		"thumbnail": "./assets/images/projects/infopescuit/thumbnail.png",
 		"images": [
@@ -30,8 +30,8 @@
 	{
 		"id": 3,
 		"title": "iungOreal",
-		"mainDescription": "A fullstack social media project where its name is a wordplay for 'going outside' (“iungo” means “to connect” in Latin) which aims to guide users into participating at outdoor events taking place in their city (marked on the integrated map) and share their experiences with others.",
-		"secondaryDescription": "<ul> <li> The project is based on a microservice architecture, having as frameworks Spring Boot server-side and Angular client-side. Most notable tools used include: spring-boot-starter for productivity in: security, web, db management & development overall. JUnit, Mockito and H2 for unit and integration tests, awssdk to connect to a cloud service, stompjs for websocket connection and leaflet for implementation of the map  </li> <li> Users can: post and comment on made posts, discuss in private / group / regional chats, update their profile to their liking and many other interactions just like in a typical social media website. </li> </ul>",
+		"mainDescription": "<p>A fullstack social media project where its name is a wordplay for 'going outside' (“iungo” means “to connect” in Latin) which aims to guide users into participating at outdoor events taking place in their city (marked on the integrated map) and share their experiences with others.</p> <p>Users can: post and comment on made posts, discuss in private / group / regional chats, update their profile to their liking and many other interactions just like in a typical social media website.</p>",
+		"secondaryDescription": "The project is based on a microservice architecture, having as frameworks Spring Boot server-side and Angular client-side. Most notable tools used include: spring-boot-starter for productivity in: security, web, db management & development overall; JUnit, Mockito and H2 for unit and integration tests, awssdk to connect to a cloud service, stompjs for websocket connection and leaflet for implementation of the map.",
 		"thumbnail": "./assets/images/projects/iungoreal/thumbnail.png",
 		"images": [
 			"./assets/images/projects/iungoreal/1stimg.png",
@@ -41,9 +41,22 @@
 	},
 	{
 		"id": 4,
+		"title": "code-cluster",
+		"mainDescription": "<p>An archive of problems which tackle subjects such as: dynamic programming, data structures or programming done in languages like: c++, python, java, typescript,  etc. </p> <p>From getting error values of a dataset by training a linear regression model, to training a logistic regression model for predicting digits from images, the repository covers a wide range of topics. Other examples would be a simulation for a movie recommendation platform in java and an implementation of pushdown automata algorithm in c++. </p>",
+		"thumbnail": "./assets/images/projects/codecluster/thumbnail.png",
+		"images": [
+			"./assets/images/projects/codecluster/one.png",
+			"./assets/images/projects/codecluster/two.png",
+			"./assets/images/projects/codecluster/three.png",
+			"./assets/images/projects/codecluster/four.png",
+			"./assets/images/projects/codecluster/five.png",
+			"./assets/images/projects/codecluster/six.png"
+		]
+	},
+	{
+		"id": 5,
 		"title": "Dyonisus",
 		"mainDescription": "Super secret organization",
-		"thumbnail": "./assets/images/projects/dyonisus_thumbnail.jpg",
 		"images": []
 	}
 ]
