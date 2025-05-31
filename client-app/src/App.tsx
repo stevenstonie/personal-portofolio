@@ -18,7 +18,7 @@ function App(): JSX.Element {
         <section style={{ height: '100dvh' }} className="centered-x-axis" id="about">
           <About />
         </section>
-        <section style={{ height: '100dvh' }} className="centered-x-axis" id="projects">
+        <section className="centered-x-axis" id="projects">
           <Projects />
         </section>
         <section style={{ height: '100dvh' }} className="centered-x-axis" id="more">
