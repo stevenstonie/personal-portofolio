@@ -1,0 +1,10 @@
+.contents_container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(var(--project-tile-height), 1fr));
+	gap: 25px;
+	justify-items: center;
+	align-items: center;
+	margin: 3rem;
+	/* height: 80dvh; */
+	/* overflow-y: auto; */
+}
