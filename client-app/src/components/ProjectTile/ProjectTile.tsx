@@ -16,7 +16,7 @@ const ProjectTile: React.FC<ProjectTileProps> = ({ project, onClick }) => (
 		}}
 	>
 		<div className={styles.overlay}>
-			<h2>{project.title}</h2>
+			<h2 style={{ fontFamily: "Alsina, monospace, cursive", fontSize: "2rem", letterSpacing: "0.1rem" }}>{project.title}</h2>
 		</div>
 	</button>
 );
