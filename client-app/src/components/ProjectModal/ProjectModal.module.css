@@ -1,5 +1,6 @@
 .modal_background {
 	position: fixed;
+	z-index: 99;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -8,7 +9,7 @@
 }
 
 :root {
-  --modal-height: 70dvh;
+	--modal-height: 70dvh;
 }
 
 .modal_window {
@@ -22,7 +23,11 @@
 	border-radius: 8px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	overflow-y: auto;
-	z-index: 1000;
+	z-index: 100;
+
+	h1 {
+		margin-top: 2rem;
+	}
 
 	@media screen and (max-width: 700px) {
 		width: 95%;
@@ -32,7 +37,7 @@
 	.project_details {
 		text-align: left;
 
-		margin: 15px;
+		margin: 1.5rem;
 
 		.short_description {
 			font-size: 1.2rem;
@@ -51,12 +56,28 @@
 		li {
 			margin: 1rem;
 		}
-		
+
 		img {
 			width: 100%;
-			max-height: var(--modal-height);
+			max-height: calc(var(--modal-height) - 2rem);
 			border: 2px solid #ccc;
 			border-radius: 10px;
 		}
+	}
+}
+
+.slide_up {
+	animation: slideUpModal 0.4s cubic-bezier(0.4, 0.8, 0.2, 1) forwards;
+}
+
+@keyframes slideUpModal {
+	from {
+		opacity: 0;
+		transform: translate(-50%, 20%);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate(-50%, -50%);
 	}
 }

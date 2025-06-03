@@ -14,7 +14,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
 	return (
 		<>
 			<div className={styles.modal_background} onClick={onClose}></div>
-			<div className={styles.modal_window}>
+			<div className={`${styles.modal_window} ${styles.slide_up}`}>
 				<h1>{project.title}</h1>
 				<section className={styles.project_details}>
 					{project.mainDescription && (

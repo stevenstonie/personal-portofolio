@@ -8,7 +8,7 @@
 :root {
   font-family: 'Alsina', monospace, sans-serif;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--background-color);
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,6 +16,8 @@
 
   --navbar-width: 3rem;
   --project-tile-height: 20rem;
+  --background-color: #242424;
+  --accent-color: #fa6728;
 
   @media screen and (max-width: 700px) {
     --project-tile-height: 18rem;
@@ -25,8 +27,19 @@
 p {
   font-size: 1.2rem;
 }
+
 li {
   font-size: 1.1rem;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+
+  &:hover {
+    color: #fb9063;
+  }
 }
 
 body {
@@ -71,16 +84,3 @@ h1 {
   scrollbar-width: thin;
   scrollbar-color: #444 #1a1a1a;
 }
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
