@@ -17,7 +17,7 @@ const Intro: React.FC = () => {
 				<div>
 					<p>Hello, this is my</p>
 				</div>
-				<div className={styles.bigger_text}>
+				<div className={styles.animated_text}>
 					<TextScramble texts={web}
 						letterSpeed={75}
 						nextLetterSpeed={130}
@@ -34,7 +34,7 @@ const Intro: React.FC = () => {
 					</div>
 				</div>
 				<div>
-					<p style={{ fontSize: '2rem', fontWeight: 'bold', textAlign: 'right' }}>portofolio</p>
+					<p style={{textAlign: 'right' }}>portofolio</p>
 				</div>
 			</div>
 		</section>

@@ -1,0 +1,34 @@
+[
+	{
+		"id": 1,
+		"certificationName": "Relational Databases",
+		"thumbnail": "./assets/images/documents/fccrdb_thumbnail.png",
+		"issuer": "freeCodeCamp",
+		"issueDate": "14-11-2022",
+		"moreInfo": "<p>This certification covers:</p> <ul><li>learning bash terminal commands for everything from navigating and manipulating system files, all the way to advanced usage.</li><li>the basics of relational databases.</li><li>querying db's for useful statistics</li></ul> <p>representing approximately 300 hours of work.</p>"
+	},
+	{
+		"id": 2,
+		"certificationName": "Responsive Web Design",
+		"thumbnail": "./assets/images/documents/fccrwd_thumbnail.png",
+		"issuer": "freeCodeCamp",
+		"issueDate": "27-09-2023",
+		"moreInfo": "<p>This certification covers:</p> <ul><li>HTML and CSS</li><li>Flexbox & Grid</li><li>Best practices for accessibility and design</li><li>Modern techniques like CSS variables</li></ul> <p>representing approximately 300 hours of work.</p>"
+	},
+	{
+		"id": 3,
+		"certificationName": "Java Remote Learning",
+		"issuer": "Nagarro IQuest Technologies",
+		"issueDate": "2022-2023",
+		"thumbnail": "./assets/images/documents/ngrjrl_thumbnail.png",
+		"moreInfo": "<p>During this course the participant studied the following topics:</p><ul> <li>Java Basics</li> <li>Objects & Object Oriented Principles</li> <li>Error handling</li> <li>Testing & Unit tests</li> <li>Strings & Enums</li> <li>Annotations & Serialization</li> <li>Generics</li> <li>Collections</li> <li>Working with dates</li> <li>Concurrency</li> <li>Stream API & Lambda Expressions</li> <li>I/O & JDBC</li> </ul><p>spanning over 6 months.</p>"
+	},
+	{
+		"id": 4,
+		"certificationName": " JAVA SUMMER INTERNSHIP",
+		"issuer": "Nagarro IQuest Technologies",
+		"issueDate": "18-08-2023",
+		"thumbnail": "./assets/images/documents/ngrjrl_thumbnail.png",
+		"moreInfo": "<p>During this internship the participant had the opportunity to experience a complete development process of an app from inception to release:</p> <ul> <li>How to use state-of-the-art development tools</li> <li>Designing and architecting an app</li> <li>Breaking down the workload and estimating it</li> <li>Implementing the functionalities, using best practices and the latest technologies for every platform</li> <li>How to use a continuous integration tool</li> <li>How to work in a team (including reviewing each other's code and interacting with other team members working on different components)</li> <li>Learning how to make a presentation</li> <li>Understanding what the work culture and an IT company environment means</li> <li>Demoing the work to clients</li> </ul> <p>over a time span of 6 weeks.</p>"
+	}
+]
