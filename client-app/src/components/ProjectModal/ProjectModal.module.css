@@ -1,5 +1,6 @@
 .modal_background {
 	position: fixed;
+	z-index: 99;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -22,7 +23,7 @@
 	border-radius: 8px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	overflow-y: auto;
-	z-index: 1000;
+	z-index: 100;
 
 	h1 {
 		margin-top: 2rem;

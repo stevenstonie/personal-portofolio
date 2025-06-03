@@ -31,7 +31,7 @@
 		"id": 3,
 		"title": "iungOreal",
 		"mainDescription": "<p>A fullstack social media project where its name is a wordplay for 'going outside' (“iungo” means “to connect” in Latin) which aims to guide users into participating at outdoor events taking place in their city (marked on the integrated map) and share their experiences with others.</p> <p>Users can: post and comment on made posts, discuss in private / group / regional chats, update their profile to their liking and many other interactions just like in a typical social media website.</p>",
-		"secondaryDescription": "The project is based on a microservice architecture, having as frameworks Spring Boot server-side and Angular client-side. Most notable tools used include: spring-boot-starter for productivity in: security, web, db management & development overall; JUnit, Mockito and H2 for unit and integration tests, awssdk to connect to a cloud service, stompjs for websocket connection and leaflet for implementation of the map.",
+		"secondaryDescription": "<p>The project is based on a microservice architecture, having as frameworks Spring Boot server-side and Angular client-side. Most notable tools used include: spring-boot-starter for productivity in: security, web, db management & development overall; JUnit, Mockito and H2 for unit and integration tests, awssdk to connect to a cloud service, stompjs for websocket connection and leaflet for implementation of the map.</p>",
 		"thumbnail": "./assets/images/projects/iungoreal/thumbnail.png",
 		"images": [
 			"./assets/images/projects/iungoreal/1stimg.png",
