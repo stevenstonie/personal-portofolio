@@ -9,7 +9,7 @@ const About: React.FC = () => {
 			<p>What caught my attention were subjects such as graphs, networking, algorithms and data structures just to name a few.</p>
 			<p>As of 2023, I have shifted my attention towards web development, starting with Spring Boot and Angular.</p>
 			<p>After getting my Bachelor's degree, I started exploring the software environment as a whole, from application architecturing, all the way to DevOps.</p>
-			<p>Today, after gaining consistent experience in everything related to software, I want to start slowly transitioning to either Project Management or Cybersecurity.</p>
+			<p>Today, after gaining consistent experience in everything related to software, I'm starting to slowly transition to either Project Management or Cybersecurity.</p>
 		</section>
 		<br></br>
 		<br></br>
