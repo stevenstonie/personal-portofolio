@@ -7,6 +7,15 @@
 	}
 }
 
+.visible_doc_section {
+	opacity: .3;
+	transition: opacity .3s ease;
+}
+
+.highlight {
+	opacity: 1;
+}
+
 
 .doc_details_popup {
 	z-index: 10;

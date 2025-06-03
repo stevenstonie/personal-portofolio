@@ -19,14 +19,16 @@ const IndividualDoc: React.FC<Doc & { alignment: "left" | "right" }> = (doc) => 
 
 	return (
 		<div ref={ref} style={{ textAlign: doc.alignment, position: "relative" }}>
-			<img
-				className={styles.document_thumbnail}
-				src={doc.thumbnail}
-				alt={doc.certificationName}
-			/>
-			<p>{doc.issuer}</p>
-			<p>{doc.certificationName}</p>
-			<p>({doc.issueDate})</p>
+			<section className={`${styles.visible_doc_section} ${isCentered ? styles.highlight : ""}`}>
+				<img
+					className={styles.document_thumbnail}
+					src={doc.thumbnail}
+					alt={doc.certificationName}
+				/>
+				<p>{doc.issuer}</p>
+				<p>{doc.certificationName}</p>
+				<p>({doc.issueDate})</p>
+			</section>
 
 			{/* Always in the DOM; the position class just sets left:0 or right:0.
           the visibility class toggles “hidden” (opacity 0) vs “visible_left/right” (slide-in + opacity 1). */}
