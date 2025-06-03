@@ -59,7 +59,7 @@
 
 		img {
 			width: 100%;
-			max-height: var(--modal-height);
+			max-height: calc(var(--modal-height) - 2rem);
 			border: 2px solid #ccc;
 			border-radius: 10px;
 		}

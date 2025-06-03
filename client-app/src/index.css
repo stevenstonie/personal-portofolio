@@ -27,8 +27,19 @@
 p {
   font-size: 1.2rem;
 }
+
 li {
   font-size: 1.1rem;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+
+  &:hover {
+    color: #fb9063;
+  }
 }
 
 body {
@@ -73,16 +84,3 @@ h1 {
   scrollbar-width: thin;
   scrollbar-color: #444 #1a1a1a;
 }
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */

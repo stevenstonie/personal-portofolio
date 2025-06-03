@@ -20,7 +20,7 @@
 			font-family: monospace;
 
 			.highlighted {
-				color: #fa6728;
+				color: var(--accent-color);
 			}
 
 			@media screen and (max-width: 700px) {
