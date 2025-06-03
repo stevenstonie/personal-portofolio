@@ -1,0 +1,12 @@
+.documents_list_container {
+	padding: 2rem 10vw;
+	list-style: none;
+
+	li{
+		margin-bottom: 5rem;
+	}
+
+	@media screen and (max-width: 700px) {
+		padding: 2rem 2vw;
+	}
+}
