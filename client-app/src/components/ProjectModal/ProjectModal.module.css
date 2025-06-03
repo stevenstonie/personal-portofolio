@@ -8,7 +8,7 @@
 }
 
 :root {
-  --modal-height: 70dvh;
+	--modal-height: 70dvh;
 }
 
 .modal_window {
@@ -24,6 +24,10 @@
 	overflow-y: auto;
 	z-index: 1000;
 
+	h1 {
+		margin-top: 2rem;
+	}
+
 	@media screen and (max-width: 700px) {
 		width: 95%;
 		height: calc(var(--modal-height) + (.1 * var(--modal-height)));
@@ -32,7 +36,7 @@
 	.project_details {
 		text-align: left;
 
-		margin: 15px;
+		margin: 1.5rem;
 
 		.short_description {
 			font-size: 1.2rem;
@@ -51,12 +55,28 @@
 		li {
 			margin: 1rem;
 		}
-		
+
 		img {
 			width: 100%;
 			max-height: var(--modal-height);
 			border: 2px solid #ccc;
 			border-radius: 10px;
 		}
+	}
+}
+
+.slide_up {
+	animation: slideUpModal 0.4s cubic-bezier(0.4, 0.8, 0.2, 1) forwards;
+}
+
+@keyframes slideUpModal {
+	from {
+		opacity: 0;
+		transform: translate(-50%, 20%);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate(-50%, -50%);
 	}
 }
