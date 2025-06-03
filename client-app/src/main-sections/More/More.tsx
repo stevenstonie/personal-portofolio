@@ -12,7 +12,7 @@ const More: React.FC = () => {
 		<h1>certificates and courses🎯</h1>
 		<ul className={styles.documents_list_container}>
 			{documents.map((doc, idx) => (
-				<li key={doc.id}>
+				<li className={styles.individual_document} key={doc.id}>
 					<IndividualDoc {...doc} alignment={alignments[idx]} />
 				</li>
 			))}
