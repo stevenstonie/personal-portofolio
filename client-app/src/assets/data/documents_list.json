@@ -1,0 +1,25 @@
+[
+	{
+		"id": 1,
+		"certificationName": "Relational Databases",
+		"thumbnail": "./assets/images/documents/fccrdb.png",
+		"issuer": "freeCodeCamp",
+		"issueDate": "14-11-2022",
+		"moreInfo": "<p>This certifications cover the next:</p> <ul><li>learning bash terminal commands for everything from navigating and manipulating system files, all the way to advanced usage.</li><li>the basics of relational databases.</li><li>querying db's for useful statistics</li></ul> <p>representing approximately 300 hours of work.</p>"
+	},
+	{
+		"id": 2,
+		"certificationName": "Responsive Web Design",
+		"thumbnail": "./assets/images/documents/angular.png",
+		"issuer": "freeCodeCamp",
+		"issueDate": "27-09-2023",
+		"moreInfo": "<p>This certifications cover the next:</p> <ul><li>HTML and CSS</li><li>Flexbox & Grid</li><li>Best practices for accessibility and design</li><li>Modern techniques like CSS variables</li></ul> <p>representing approximately 300 hours of work.</p>"
+	},
+	{
+		"id": 3,
+		"certificationName": "Certified An🅱️ular.ps Developer",
+		"issuer": "Nagarro IQuest Technologies",
+		"issueDate": "2022-01-01",
+		"moreInfo": ""
+	}
+]

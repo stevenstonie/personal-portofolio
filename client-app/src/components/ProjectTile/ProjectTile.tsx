@@ -22,4 +22,4 @@ const ProjectTile: React.FC<ProjectTileProps> = ({ project, onClick }) => (
 	</div>
 );
 
-export default ProjectTile
+export default ProjectTile;
