@@ -11,6 +11,11 @@ const About: React.FC = () => {
 			<p>After getting my Bachelor's degree, I started exploring the software environment as a whole, from application architecturing, all the way to DevOps.</p>
 			<p>Today, after gaining consistent experience in everything related to software, I want to start slowly transitioning to either Project Management or Cybersecurity.</p>
 		</section>
+		<br></br>
+		<br></br>
+		<br></br>
+		<br></br>
+		<br></br>
 	</section>
 }
 
