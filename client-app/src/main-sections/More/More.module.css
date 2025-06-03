@@ -9,6 +9,6 @@
 
 	.individual_document {
 		margin-bottom: 5rem;
-		margin-left: calc(var(--navbar-width) - 1rem);
+		margin-left: var(--navbar-width);
 	}
 }
