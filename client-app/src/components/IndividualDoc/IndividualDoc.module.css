@@ -10,6 +10,10 @@
 .visible_doc_section {
 	opacity: .3;
 	transition: opacity .3s ease;
+
+	h2, p {
+		margin: 0;
+	}
 }
 
 .highlight {

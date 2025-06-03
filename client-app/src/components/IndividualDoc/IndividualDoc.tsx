@@ -25,8 +25,8 @@ const IndividualDoc: React.FC<Doc & { alignment: "left" | "right" }> = (doc) => 
 					src={doc.thumbnail}
 					alt={doc.certificationName}
 				/>
-				<p>{doc.issuer}</p>
-				<p>{doc.certificationName}</p>
+				<h2 style={{ fontWeight: "bold" }}>{doc.certificationName}</h2>
+				<p>by {doc.issuer}</p>
 				<p>({doc.issueDate})</p>
 			</section>
 
