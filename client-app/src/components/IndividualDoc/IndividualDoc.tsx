@@ -14,10 +14,8 @@ const IndividualDoc: React.FC<Doc & { alignment: "left" | "right" }> = (doc) => 
 		doc.alignment === "left" ? styles.right_aligned_popup : styles.left_aligned_popup;
 
 	const visibilityOfPopup = isCentered
-		? doc.alignment === "left"
-			? styles.pop_from_right
-			: styles.pop_from_left
-		: styles.hidden;
+		? styles.pop_up
+		: styles.hide;
 
 	return (
 		<div ref={ref} style={{ textAlign: doc.alignment, position: "relative" }}>
