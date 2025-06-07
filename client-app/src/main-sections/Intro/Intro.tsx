@@ -20,14 +20,14 @@ const Intro: React.FC = () => {
 				<div className={styles.animated_text}>
 					<TextScramble texts={web}
 						letterSpeed={75}
-						nextLetterSpeed={130}
+						nextLetterSpeed={170}
 						paused={false}
 						pauseTime={15000000000}
 					/>
 					<div className={styles.highlighted}>
 						<TextScramble texts={developer}
 							letterSpeed={75}
-							nextLetterSpeed={110}
+							nextLetterSpeed={140}
 							paused={false}
 							pauseTime={15000000000}
 						/>
