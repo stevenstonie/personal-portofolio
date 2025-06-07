@@ -17,14 +17,15 @@
 		"id": 2,
 		"title": "InfOfish",
 		"mainDescription": "<p>A desktop app which solves the mundane and error-prone way of taking reports of check-ins and check-outs for fishing lakes. InfOfish acts as a payment gateway, where the user scans barcodes of customer's cards to automate the process of writing data in excels and calculating revenue at closing.</p> <p>It improves the time taken to fill in excel data by hand by <span style=\"text-decoration: underline;\">at least 12 times</span> and it sees human errors occurring <span style=\"text-decoration: underline;\">less than about 20 times</span>, having less unnecesary room exposed and given the fact that navigation through the app is more pleasant to the eye.</p>",
-		"secondaryDescription": "<p>It is written in Python but compiled in C++ for faster speeds at runtime. The UI is done with Tkinter, OpenPyxl is used for excel manipulation, whereas Fernet, hmac, symmetric and asymmetric keys are applied for security purposes</p>",
+		"secondaryDescription": "<p>It is written in Python but compiled in C++ for faster speeds at runtime. The UI is done with Tkinter, OpenPyxl is used for excel manipulation, PyWhatKit to automate whatsapp message sending, whereas Fernet, hmac, symmetric and asymmetric keys are applied for security purposes</p>",
 		"thumbnail": "./assets/images/projects/infopescuit/thumbnail.png",
 		"images": [
 			"./assets/images/projects/infopescuit/1.png",
 			"./assets/images/projects/infopescuit/2.png",
 			"./assets/images/projects/infopescuit/3.png",
 			"./assets/images/projects/infopescuit/4.png",
-			"./assets/images/projects/infopescuit/5.png"
+			"./assets/images/projects/infopescuit/5.png",
+			"./assets/images/projects/infopescuit/6.png"
 		]
 	},
 	{
