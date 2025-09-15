@@ -25,10 +25,18 @@
 	},
 	{
 		"id": 4,
-		"certificationName": " JAVA SUMMER INTERNSHIP",
+		"certificationName": "JAVA SUMMER INTERNSHIP",
 		"issuer": "Nagarro IQuest Technologies",
 		"issueDate": "18-08-2023",
 		"thumbnail": "./assets/images/documents/ngrjrl_thumbnail.png",
 		"moreInfo": "<p>During this internship I had the opportunity to experience a complete development process of an app from inception to release:</p> <ul> <li>How to use state-of-the-art development tools</li> <li>Designing and architecting an app</li> <li>Breaking down the workload and estimating it</li> <li>Implementing the functionalities, using best practices and the latest technologies for every platform</li> <li>How to use a continuous integration tool</li> <li>How to work in a team (including reviewing each other's code and interacting with other team members working on different components)</li> <li>Learning how to make a presentation</li> <li>Understanding what the work culture and an IT company environment means</li> <li>Demoing the work to clients</li> </ul> <p>over a time span of 6 weeks.</p>"
+	},
+	{
+		"id": 5,
+		"certificationName": "Project Management Course",
+		"issuer": "Generatia Tech",
+		"issueDate": "01-08-2025",
+		"thumbnail": "./assets/images/documents/gntcpm_thumbnail.png",
+		"moreInfo": "<p>I had the pleasure to participate in a course organized by generatia tech and funded by digital nation, which covered:</p> <ul> <li>Application of Waterfall methodology in project planning and execution</li> <li>Usage of key planning and organization tools like WBS, Gantt chart, RACI, A3 report, etc.</li> <li>Management of stakeholders and navigation of team conflict situations</li> <li>Application of Agile Scrum framework, including its roles, ceremonies and artifacts</li> <li>Usage of Jira to organize sprints and manage project tasks</li> </ul><p>for a total duration of 2 months.</p>"
 	}
 ]
