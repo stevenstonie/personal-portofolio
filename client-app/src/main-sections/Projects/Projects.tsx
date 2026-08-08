@@ -6,7 +6,7 @@ import projects_list from "../../assets/data/projects_list.json";
 import styles from "./Projects.module.css";
 
 
-const projects: Project[] = projects_list as Project[];
+const projects: Project[] = [...projects_list].reverse() as Project[];
 
 const Projects: React.FC = () => {
 	const [selected, setSelected] = useState<Project | null>(null);

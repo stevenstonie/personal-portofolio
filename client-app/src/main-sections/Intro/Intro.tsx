@@ -3,8 +3,8 @@ import { ScrambleTexts } from "@twistezo/react-text-scramble/lib/types";
 import TextScramble from "@twistezo/react-text-scramble/lib/TextScramble";
 
 const Intro: React.FC = () => {
-	const web: ScrambleTexts = [
-		'Web+'
+	const software: ScrambleTexts = [
+		'Software'
 	]
 	const developer: ScrambleTexts = [
 		'Developer'
@@ -17,9 +17,9 @@ const Intro: React.FC = () => {
 					<p>Hello, this is my</p>
 				</div>
 				<div className={styles.animated_text}>
-					<TextScramble texts={web}
+					<TextScramble texts={software}
 						letterSpeed={75}
-						nextLetterSpeed={180}
+						nextLetterSpeed={150}
 						paused={false}
 						pauseTime={15000000000}
 					/>
