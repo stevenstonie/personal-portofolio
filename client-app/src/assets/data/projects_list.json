@@ -68,7 +68,7 @@
 	{
 		"id": 6,
 		"title": "InfOpescuit V3",
-		"mainDescription": "<p>The updated version of its predecessor, which feels more robust and less like a prototype. Designed for both PC's and Android tablets, it does what version 2 does and much more. </p> <p>New functionalities include:</p> <ul><li>a sheet viewer for checking and changing data for excel sheets without leaving the application</li> <li>cash register integration when doing check-ins / check-outs</li> <li>new sheet integrations for promotions and reservations</li> <li>custom report data per lake</li> <li>language switching</li> <li>and many more</li></ul>",
+		"mainDescription": "<p>The updated version of its predecessor, which feels more robust and less like a prototype. Designed fully local for both Computers and Android tablets, it does what version 2 does and much more. </p> <p>New functionalities include:</p> <ul><li>a sheet viewer for checking and changing data for excel sheets without leaving the application</li> <li>cash register integration when doing check-ins / check-outs</li> <li>new sheet integrations for promotions and reservations</li> <li>custom report data per lake</li> <li>language switching</li> <li>and many more</li></ul>",
 		"secondaryDescription": "<p>It is developed in Flutter, leveraging different libraries like: flutter_excel for doing operations on .xlsx files, trina_grid for rendering tables inside the app, barcode_widget to display barcodes as images, pasteboard to copy barcode images or taking snapshots of reports, etc.</p>",
 		"thumbnail": "./assets/images/projects/infopescuitv3/thumbnail.png",
 		"images": [
@@ -76,6 +76,18 @@
 			"./assets/images/projects/infopescuitv3/add_user_to_masterfile.png",
 			"./assets/images/projects/infopescuitv3/checkins_checkouts.png",
 			"./assets/images/projects/infopescuitv3/report.png"
+		]
+	},
+	{
+		"id": 7,
+		"title": "AsigurAZ",
+		"mainDescription": "<p>A cross-platform car insurance application built for Web, Android, and iOS. It features a straightforward, intuitive UI that simplifies the insurance process.</p> <p>Users can easily generate and compare custom offers and once a specific coverage option is chosen, the payment process unfolds. Active, paid policies become immediately accessible for viewing directly within the app, and a PDF copy is automatically dispatched to the user's email after a successful payment.</p> <p>The application can be found at: <a href=\"https://autoaaz.ro\" target=\"_blank\">https://autoaaz.ro</a>, or it can be downloaded from play store or app store.</p>",
+		"secondaryDescription": "<p>Technical Stack & Key Features:</p> <ul><li>Frontend: Built with Flutter for cross-platform deployment across Web, Android, and iOS.</li> <li>Backend & Infrastructure: Serverless Node.js environment hosted on Google Cloud Platform via Firebase.</li> <li>Security & Authentication: Secured using Firebase Authentication, App Check, and Secrets Manager.</li> <li>Payment Processing: Integrated with Netopia, handling transactions asynchronously via webhooks.</li> <li>Other features: Rate Limiting managed through an Upstash Redis database, Emails are dispatched using Mailtrap, etc.</li></ul>",
+		"thumbnail": "./assets/images/projects/asiguraz/thumbnail.jpg",
+		"images": [
+			"./assets/images/projects/asiguraz/1.png",
+			"./assets/images/projects/asiguraz/2.png",
+			"./assets/images/projects/asiguraz/3.png"
 		]
 	}
 ]
