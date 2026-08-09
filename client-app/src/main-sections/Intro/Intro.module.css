@@ -6,26 +6,68 @@
 
 	.inner_container {
 		font-size: 1.5rem;
+	}
 
-		p {
-			font-size: 1.9rem;
+	.p_text {
+		font-size: 1.9rem;
+	}
 
-			@media screen and (max-width: 700px) {
-				font-size: 1.4rem;
-			}
+	.typewriter_wrapper {
+		display: inline-block;
+		text-align: left;
+		white-space: normal;
+		overflow-wrap: break-word;
+		font-size: 70px;
+	}
+
+	.input_cursor {
+		display: inline-block;
+		width: 2px;
+		height: 70px;
+		background-color: white;
+		margin-left: 8px;
+		animation: blink .6s linear infinite alternate;
+	}
+
+	@media (max-width: 800px) {
+		.typewriter_wrapper {
+			font-size: 50px;
 		}
 
-		.animated_text {
-			font-size: 5rem;
-			font-family: monospace;
+		.input_cursor {
+			height: 50px;
+		}
+	}
 
-			.highlighted {
-				color: var(--accent-color);
-			}
+	@media (max-width: 500px) {
+		.typewriter_wrapper {
+			font-size: 30px;
+		}
 
-			@media screen and (max-width: 700px) {
-				font-size: 3.5rem;
-			}
+		.input_cursor {
+			height: 30px;
+		}
+
+		.p_text {
+			font-size: 1.4rem;
+		}
+	}
+
+	@keyframes blink {
+		0% {
+			opacity: 1;
+		}
+
+		40% {
+			opacity: 1;
+		}
+
+		60% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 0;
 		}
 	}
 }

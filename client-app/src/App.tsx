@@ -12,7 +12,7 @@ function App(): JSX.Element {
     <>
       <Navbar />
       <main className="main-page-container">
-        <section style={{ height: '100dvh' }} id="home">
+        <section style={{ height: '100svh' }} id="home">
           <Intro />
         </section>
         <section className="centered-x-axis" id="about">
