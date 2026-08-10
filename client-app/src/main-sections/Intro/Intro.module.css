@@ -2,22 +2,24 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 20vh;
-
-	.inner_container {
-		font-size: 1.5rem;
-	}
+	padding-top: 25vh;
 
 	.p_text {
 		font-size: 1.9rem;
+		font-family: monospace, 'Courier New', Courier;
 	}
 
 	.typewriter_wrapper {
 		display: inline-block;
+		vertical-align: top;
 		text-align: left;
 		white-space: normal;
-		overflow-wrap: break-word;
 		font-size: 70px;
+		line-height: 1.2;
+	}
+
+	.magic_space::after {
+		content: " ";
 	}
 
 	.input_cursor {
@@ -26,10 +28,31 @@
 		height: 70px;
 		background-color: white;
 		margin-left: 8px;
-		animation: blink .6s linear infinite alternate;
+
+		animation-name: terminalBlink;
+		animation-duration: 1s;
+		animation-timing-function: step-end;
+		animation-iteration-count: infinite;
+	}
+
+	@media (min-width: 800px) {
+		.typewriter_wrapper {
+			min-width: var(--typewriter-char-count);
+		}
 	}
 
 	@media (max-width: 800px) {
+		.typewriter_wrapper {
+			min-height: 2.4em;
+		}
+
+		.magic_space::after {
+			content: "\A";
+			white-space: pre;
+		}
+	}
+
+	@media (max-width: 500px) {
 		.typewriter_wrapper {
 			font-size: 50px;
 		}
@@ -37,36 +60,20 @@
 		.input_cursor {
 			height: 50px;
 		}
-	}
-
-	@media (max-width: 500px) {
-		.typewriter_wrapper {
-			font-size: 30px;
-		}
-
-		.input_cursor {
-			height: 30px;
-		}
 
 		.p_text {
-			font-size: 1.4rem;
+			font-size: 1.3rem;
 		}
 	}
 
-	@keyframes blink {
-		0% {
-			opacity: 1;
-		}
+	@keyframes terminalBlink {
 
-		40% {
-			opacity: 1;
-		}
-
-		60% {
-			opacity: 0;
-		}
-
+		0%,
 		100% {
+			opacity: 1;
+		}
+
+		50% {
 			opacity: 0;
 		}
 	}
