@@ -35,10 +35,7 @@
 		background-color: white;
 		margin-left: 8px;
 
-		animation-name: terminalBlink;
-		animation-duration: 1s;
-		animation-timing-function: step-end;
-		animation-iteration-count: infinite;
+		animation: cf-bc-blink 1.5s steps(2, end) infinite;
 	}
 
 	@media (min-width: 800px) {
@@ -72,15 +69,16 @@
 		}
 	}
 
-	@keyframes terminalBlink {
+}
+@keyframes cf-bc-blink {
 
-		0%,
-		100% {
-			opacity: 1;
-		}
+	0%,
+	50% {
+		opacity: 1;
+	}
 
-		50% {
-			opacity: 0;
-		}
+	50.01%,
+	100% {
+		opacity: 0;
 	}
 }
