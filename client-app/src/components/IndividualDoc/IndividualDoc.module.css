@@ -2,7 +2,7 @@
 	width: 300px;
 	aspect-ratio: 1 / 1;
 
-	@media screen and (max-width: 700px) {
+	@media screen and (max-width: 800px) {
 		width: 200px;
 	}
 }
@@ -11,7 +11,8 @@
 	opacity: .3;
 	transition: opacity .3s ease;
 
-	h2, p {
+	h2,
+	p {
 		margin: 0;
 	}
 }
@@ -25,7 +26,6 @@
 	z-index: 10;
 	position: absolute;
 	top: 10%;
-	/* left / right aligning is handled separately */
 	width: 50%;
 	min-height: 250px;
 	max-height: 400px;
@@ -34,14 +34,17 @@
 	border: 3px double var(--accent-color);
 	opacity: 0;
 	pointer-events: none;
-	padding: .7rem;
 	text-align: left;
-	overflow: auto;
 	transition: opacity 0.3s ease, transform 0.3s ease;
 
-	@media screen and (max-width: 700px) {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	overflow: hidden;
+
+	@media screen and (max-width: 800px) {
 		top: 93%;
-		width: 60%;
+		width: 65%;
 	}
 
 	li {
@@ -50,6 +53,44 @@
 
 	p {
 		margin: 0;
+	}
+}
+
+.doc_details_content {
+	padding: .7rem;
+	overflow: hidden;
+	flex-grow: 1;
+}
+
+.scroll_arrow {
+	background-color: var(--background-color);
+	color: var(--accent-color);
+	border: none;
+	border-bottom: 1px solid var(--accent-color);
+	width: 100%;
+	padding: 8px 0;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	flex-shrink: 0;
+	z-index: 2;
+	transition: color 0.2s ease, opacity 0.2s ease;
+
+	&:last-of-type {
+		border-bottom: none;
+		border-top: 1px solid var(--accent-color);
+	}
+
+	&:disabled {
+		color: grey;
+		cursor: default;
+		opacity: 0.5;
+	}
+
+	&:not(:disabled):hover {
+		opacity: 0.7;
 	}
 }
 

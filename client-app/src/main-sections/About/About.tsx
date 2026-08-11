@@ -14,8 +14,6 @@ const About: React.FC = () => {
 		</section>
 		<br></br>
 		<br></br>
-		<br></br>
-		<br></br>
 	</section>
 }
 

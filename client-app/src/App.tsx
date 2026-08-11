@@ -18,9 +18,13 @@ function App(): JSX.Element {
         <section className="centered-x-axis" id="about">
           <About />
         </section>
+        <br></br>
+        <br></br>
         <section className="centered-x-axis" id="projects">
           <Projects />
         </section>
+        <br></br>
+        <br></br>
         <section className="centered-x-axis" id="more">
           <More />
         </section>
