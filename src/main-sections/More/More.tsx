@@ -9,7 +9,7 @@ const alignments = documents.map((_, idx) => (idx % 2 === 0 ? "left" : "right"))
 const More: React.FC = () => {
 
 	return <>
-		<h1>Certificates and courses</h1>
+		<h2>Certificates and courses</h2>
 		<ul className={styles.documents_list_container}>
 			{documents.map((doc, idx) => (
 				<li className={styles.individual_document} key={doc.id}>

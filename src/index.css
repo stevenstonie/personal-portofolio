@@ -58,7 +58,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
+h2 {
   font-size: 3rem;
   line-height: 1.1;
   margin: 2rem auto;
@@ -91,4 +91,17 @@ h1 {
 * {
   scrollbar-width: thin;
   scrollbar-color: #444 #1a1a1a;
+}
+
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }

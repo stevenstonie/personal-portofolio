@@ -26,6 +26,7 @@ const Intro: React.FC = () => {
 	const firstWord = words[0];
 	const restWords = words.slice(1).join(' ');
 	const hasSpace = words.length > 1;
+
 	return (
 		<section className={styles.intro_container}>
 			<div className={styles.inner_container}>

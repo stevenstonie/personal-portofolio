@@ -11,7 +11,9 @@ function App(): JSX.Element {
   return (
     <>
       <Navbar />
+
       <main className="main-page-container">
+        <h1 className='sr-only'>Developer with all-around expertise</h1>
         <section style={{ height: '100svh' }} id="home">
           <Intro />
         </section>

@@ -3,7 +3,7 @@
 const Contact: React.FC = () => {
 	return (
 		<>
-			<h1>Contact details</h1>
+			<h2>Contact details</h2>
 			<h3>You can reach me at: stevennstonie@gmail.com</h3>
 			<h3>
 				You can also check my github page by clicking&nbsp;

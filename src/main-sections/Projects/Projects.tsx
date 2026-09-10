@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
 
 	return (
 		<section>
-			<h1>Personal projects</h1>
+			<h2>Personal projects</h2>
 			<div className={styles.contents_container}>
 				{projects.map((project) => (
 					<ProjectTile key={project.id} project={project} onClick={() => setSelected(project)} />
