@@ -33,7 +33,7 @@ function App(): JSX.Element {
         <section className="centered-x-axis" id="contact">
           <Contact />
         </section>
-        <section style={{ marginTop: '50vh' }} className="centered-x-axis" id="footer">
+        <section style={{ marginTop: '40vh' }} className="centered-x-axis" id="footer">
           <div className="footer">
             <a href="https://http.cat/418" target="_blank" rel="noopener noreferrer">
               <p>☕</p>

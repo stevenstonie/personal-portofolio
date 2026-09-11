@@ -18,8 +18,9 @@
   --project-tile-height: 20rem;
   --background-color: #242424;
   --accent-color: #fa6728;
+  --margin-x-small: 1rem;
 
-  @media screen and (max-width: 700px) {
+  @media (max-width: 700px) {
     --project-tile-height: 18rem;
   }
 }
