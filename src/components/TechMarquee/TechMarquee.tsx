@@ -19,23 +19,27 @@ import springbootIconPath from '@/assets/icons/svgs/springboot.svg';
 import typescriptIconPath from '@/assets/icons/svgs/typescript.svg';
 
 const TECH_ITEMS_LIST = [
-    { name: 'Typescript', icon: <img src={typescriptIconPath} alt="" /> },
-    { name: 'Java', icon: <img src={javaIconPath} alt="" /> },
-    { name: 'Rust', icon: <img src={rustIconPath} alt="" /> },
-    { name: 'C++', icon: <img src={cppIconPath} alt="" /> },
-    { name: 'C#', icon: <img src={csharpIconPath} alt="" /> },
-    { name: 'Python', icon: <img src={pythonIconPath} alt="" /> },
-    { name: 'Flutter', icon: <img src={flutterIconPath} alt="" /> },
-    { name: 'NodeJs', icon: <img src={nodejsIconPath} alt="" /> },
-    { name: 'React', icon: <img src={reactIconPath} alt="" /> },
-    { name: 'Angular', icon: <img src={angularIconPath} alt="" /> },
-    { name: 'Spring Boot', icon: <img src={springbootIconPath} alt="" /> },
-    { name: 'Amazon Web Services', icon: <img src={awsIconPath} alt="" /> },
-    { name: 'Google Cloud Platform', icon: <img src={gcpIconPath} alt="" /> },
-    { name: 'Docker', icon: <img src={dockerIconPath} alt="" /> },
-    { name: 'NginX', icon: <img src={nginxIconPath} alt="" /> },
-    { name: 'Linux', icon: <img src={linuxIconPath} alt="" /> },
-    { name: 'Postgres', icon: <img src={postgresIconPath} alt="" /> },
+    { name: 'TypeScript', color: '#3178C6', icon: <img src={typescriptIconPath} alt="" /> },
+    { name: 'Java', color: '#E76F00', icon: <img src={javaIconPath} alt="" /> },
+    { name: 'Rust', color: '#A04F12', icon: <img src={rustIconPath} alt="" /> },
+    { name: 'C++', color: '#659AD2', icon: <img src={cppIconPath} alt="" /> },
+    { name: 'C#', color: '#9A5196', icon: <img src={csharpIconPath} alt="" /> },
+    { name: 'Python', color: '#FCD128', icon: <img src={pythonIconPath} alt="" /> },
+    { name: 'Flutter', color: '#47C5FB', icon: <img src={flutterIconPath} alt="" /> },
+    // pglangs^^
+    { name: 'Node.js', color: '#8CC84B', icon: <img src={nodejsIconPath} alt="" /> },
+    { name: 'React', color: '#00D8FF', icon: <img src={reactIconPath} alt="" /> },
+    { name: 'Angular', color: '#E23237', icon: <img src={angularIconPath} alt="" /> },
+    { name: 'Spring Boot', color: '#6AB02C', icon: <img src={springbootIconPath} alt="" /> },
+    // libs/frameworks^^
+    { name: 'Amazon Web Services', color: '', icon: <img src={awsIconPath} alt="" /> },
+    { name: 'Google Cloud Platform', color: '', icon: <img src={gcpIconPath} alt="" /> },
+    // platforms^^
+    { name: 'Docker', color: '#2396ED', icon: <img src={dockerIconPath} alt="" /> },
+    { name: 'nginx', color: '#009639', icon: <img src={nginxIconPath} alt="" /> },
+    { name: 'Linux', color: '#E6E6E6', icon: <img src={linuxIconPath} alt="" /> },
+    { name: 'Postgres', color: '#336791', icon: <img src={postgresIconPath} alt="" /> },
+    // others^^
 ];
 
 const minItems = 12;
@@ -64,7 +68,7 @@ export default function TechMarquee() {
                         <div
                             key={`g1-${item.id}`}
                             className={styles.chip}
-                            style={{ '--hover-color': item.color || '#57534e' } as React.CSSProperties}
+                            style={{ '--hover-color': item.color } as React.CSSProperties}
                         >
                             <div className={styles.tile}>{item.icon}</div>
                             {item.name}
